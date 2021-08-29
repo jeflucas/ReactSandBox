@@ -1,5 +1,5 @@
 function primeiro() {
-  return "Primeiro Alterado outra vez";
+  return "Primeiro";
 }
 
 export default primeiro;
