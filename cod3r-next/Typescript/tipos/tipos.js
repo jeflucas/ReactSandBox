@@ -17,3 +17,6 @@ hobbies.push("dormir");
 console.log(hobbies[0]);
 console.log(typeof hobbies);
 hobbies = [10];
+//tupla
+var endereco = ['Av Tal', 10];
+console.log(endereco);

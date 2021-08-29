@@ -31,3 +31,9 @@ console.log(hobbies[0])
 console.log(typeof hobbies)
 
 hobbies = [10]
+
+//tupla
+
+let endereco: [string, number] = ['Av Tal', 10]
+
+console.log(endereco)
