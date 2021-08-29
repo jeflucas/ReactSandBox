@@ -20,3 +20,12 @@ hobbies = [10];
 //tupla
 var endereco = ['Av Tal', 10];
 console.log(endereco);
+//enum
+var Cor;
+(function (Cor) {
+    Cor[Cor["Azul"] = 0] = "Azul";
+    Cor[Cor["Verde"] = 1] = "Verde";
+    Cor[Cor["Amarelo"] = 2] = "Amarelo";
+})(Cor || (Cor = {}));
+var minhaCor = Cor.Azul;
+console.log(minhaCor);

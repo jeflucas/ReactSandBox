@@ -37,3 +37,15 @@ hobbies = [10]
 let endereco: [string, number] = ['Av Tal', 10]
 
 console.log(endereco)
+
+//enum
+
+enum Cor {
+    Azul,
+    Verde,
+    Amarelo
+}
+
+let minhaCor: Cor = Cor.Azul
+
+console.log(minhaCor)
