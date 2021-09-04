@@ -1,11 +1,12 @@
-export default function EstiloTabuleiro(props) {
+import styles from "../styles/Subdivisao.module.css";
+
+export default function Subdivisao(props) {
   return (
-    <>
-      <p
-        style={{ backgroundColor: (props.fundo = "branco" ? "#fff" : "#000") }}
-      >
-        Opa
-      </p>
-    </>
+    <div
+      style={{
+        backgroundColor: props.preta ? "#000" : "#fff",
+      }}
+      className={styles.subdivisao}
+    ></div>
   );
 }
