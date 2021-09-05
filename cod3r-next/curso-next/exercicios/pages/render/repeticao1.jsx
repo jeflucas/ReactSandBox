@@ -19,5 +19,13 @@ export default function repeticao1() {
     return itens;
   }
 
-  return <ul>{renderizarLista()}</ul>;
+  function renderizaComMap() {
+    return listaAprovados.map((nome, i) => <li key={i}>{nome}</li>);
+  }
+
+  return (
+    <div>
+      <ul>{renderizaComMap()}</ul>
+    </div>
+  );
 }
