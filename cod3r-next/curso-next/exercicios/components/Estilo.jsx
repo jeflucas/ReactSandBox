@@ -8,7 +8,7 @@ export default function Estilo(props) {
           textAlign: props.direita ? "right" : "left",
         }}
       >
-        Texto
+        Texto 2
       </h1>
     </div>
   );
