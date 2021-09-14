@@ -13,6 +13,9 @@ export default function botao() {
 
   return (
     <div>
+      <div>
+        <input type="text" onChange={(e) => console.log(e.target.value)} />
+      </div>
       <button onClick={acao1}>Botão 01</button>
       <button onClick={acao2}>Botão 02</button>
       <button
@@ -30,6 +33,7 @@ export default function botao() {
         Botão 04
       </button>
       <button onClick={acao5}>Botão 05</button>
+      <button onClick={(e) => acao5(e.altKey)}>Botão 06</button>
     </div>
   );
 }
