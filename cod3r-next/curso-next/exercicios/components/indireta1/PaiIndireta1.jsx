@@ -2,7 +2,7 @@ import FilhoIndireta1 from "./FilhoIndireta1";
 
 export default function PaiIndireta1(props) {
   function falarComigo() {
-    console.log("Falar Comigo");
+    alert("Falar Comigo");
   }
   return (
     <div>
